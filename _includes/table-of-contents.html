@@ -1,0 +1,155 @@
+<section class="toc-component">
+  <div class="container">
+    <article class="toc-section toc-section--web">
+      <div class="toc-heading">
+        <i class="fas fa-mobile"></i>
+        <h3>
+          <a href="mobile.html">Mobile</a>
+        </h3>
+        <small>
+          <!-- <span>3</span> lessons -->
+        </small>
+        <em>
+          Offline Maps for Mobile
+        </em>
+      </div>
+      <ol class="toc-content">
+        {% for post in site.posts reversed %}
+          {% capture currentsection %}{{ post.section }}{% endcapture %}
+          {% if currentsection == "mobile" %}
+            {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
+            {% if currentmonth != month %}
+              <li class="toc-month">
+                <a href="{{ post.url | remove_first:'/' }}">
+                  <em>{{currentmonth}}</em>
+                  {{ post.title | strip_html }}
+                </a>
+              </li>
+              {% capture month %}{{currentmonth}}{% endcapture %}
+            {% else %}
+              <li>
+                <a href="{{ post.url | remove_first:'/' }}" {%if page.url == post.url %} class="active"{% endif %}>
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </article>
+
+    <article class="toc-section toc-section--html5">
+      <div class="toc-heading">
+        <i class="fas fa-database"></i>
+        <h3>
+          <a href="data.html">Data</a>
+        </h3>
+        <small>
+          <!-- <span>13</span> lessons -->
+        </small>
+        <em>
+          Open Data
+        </em>
+      </div>
+      <ol class="toc-content">
+        {% for post in site.posts reversed %}
+          {% capture currentsection %}{{ post.section }}{% endcapture %}
+          {% if currentsection == "data" %}
+            {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
+            {% if currentmonth != month %}
+              <li class="toc-month">
+                <a href="{{ post.url | remove_first:'/' }}">
+                  <em>{{currentmonth}}</em>
+                  {{ post.title | strip_html }}
+                </a>
+              </li>
+              {% capture month %}{{currentmonth}}{% endcapture %}
+            {% else %}
+              <li>
+                <a href="{{ post.url | remove_first:'/'}}" {%if page.url == post.url %} class="active"{% endif %}>
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </article>
+
+    <article class="toc-section toc-section--css3">
+      <div class="toc-heading">
+        <i class="fas fa-toolbox"></i>
+        <h3>
+          <a href="tool.html">Tools</a>
+        </h3>
+        <small>
+          <!-- <span>29</span> lessons -->
+        </small>
+        <em>
+          Open Tools
+        </em>
+      </div>
+      <ol class="toc-content">
+        {% for post in site.posts reversed %}
+          {% capture currentsection %}{{ post.section }}{% endcapture %}
+          {% if currentsection == "tools" %}
+            {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
+            {% if currentmonth != month %}
+              <li class="toc-month">
+                <a href="{{ post.url | remove_first:'/' }}">
+                  <em>{{currentmonth}}</em>
+                  {{ post.title | strip_html }}
+                </a>
+              </li>
+              {% capture month %}{{currentmonth}}{% endcapture %}
+            {% else %}
+              <li>
+                <a href="{{ post.url | remove_first:'/' }}" {%if page.url == post.url %} class="active"{% endif %}>
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </article>
+
+    <article class="toc-section toc-section--sass">
+      <div class="toc-heading">
+        <i class="fas fa-rocket"></i>
+        <h3>
+          <a href="pipeline.html">Pipeline</a>
+        </h3>
+        <small>
+          <!-- <span>5</span> lessons -->
+        </small>
+        <em>
+          Data to Product
+        </em>
+      </div>
+      <ol class="toc-content">
+        {% for post in site.posts reversed %}
+          {% capture currentsection %}{{ post.section }}{% endcapture %}
+          {% if currentsection == "pipeline" %}
+            {% capture currentmonth %}{{ post.date | date: "%m" }}{% endcapture %}
+            {% if currentmonth != month %}
+              <li class="toc-month">
+                <a href="{{ post.url | remove_first:'/' }}">
+                  <em>{{currentmonth}}</em>
+                  {{ post.title | strip_html }}
+                </a>
+              </li>
+              {% capture month %}{{currentmonth}}{% endcapture %}
+            {% else %}
+              <li>
+                <a href="{{ post.url | remove_first:'/' }}" {%if page.url == post.url %} class="active"{% endif %}>
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </article>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <title>{{ page.title | strip_html }} - {{ site.description }}</title>
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" />
+  <![endif]-->
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.homepage }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:image" content="{{ site.twitter.image }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="{{ site.twitter.width }}">
+  <meta property="og:image:height" content="{{ site.twitter.height }}">
+
+  <meta name="twitter:card" content="{{ site.twitter.card }}">
+  <meta name="twitter:creator" content="@{{ site.twitter.creator }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.twitter.image }}">
+  <meta name="twitter:site" content="@{{ site.twitter.site }}">
+  <meta name="twitter:title" content="{{ site.twitter.title }}">
+</head>

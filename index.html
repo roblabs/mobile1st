@@ -1,0 +1,38 @@
+---
+layout: default
+title: "MarkSheet: a free HTML and CSS tutorial"
+route: index
+---
+
+<section class="index-hello">
+  <div class="index-hello-content">
+    <hgroup class="hello">
+      <h1>{{ site.name }}</h1>
+      <h2>{{ site.description }}</h2>
+    </hgroup>
+
+    <!-- {% include share.html %} -->
+
+    <a class="start" href="introduction.html">
+      Start reading
+    </a>
+  </div>
+</section>
+
+<section class="toc-head">
+  <div class="container">
+    <p class="toc-column--sections">
+      <strong>{{ site.toc.sections }}</strong> sections
+    </p>
+
+    <p class="toc-column--chapters">
+      <strong>{{ site.toc.chapters }}</strong> chapters
+    </p>
+
+    <p class="toc-column--lessons">
+      <strong>{{ site.toc.lessons }}</strong> lessons
+    </p>
+  </div>
+</section>
+
+{% include table-of-contents.html %}
