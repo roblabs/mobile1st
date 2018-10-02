@@ -12,7 +12,7 @@ But since we are Mobile First, this is a don’t care
 We built the WebP reader into our Mobile SDK for iOS  
 
 See our code and how to include a WebP reader for mobile
-https://github.com/roblabs/mapbox-gl-native
+[https://github.com/roblabs/mapbox-gl-native](https://github.com/roblabs/mapbox-gl-native)
 
 
 
