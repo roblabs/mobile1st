@@ -13,9 +13,9 @@ https://mobile1st.roblabs.com
 * For more information, please see the [National Trails System GIS Network](http://pnts.org/new/national-trails-system-gis-network/)
 
 
-### Original Author
+### Original Source Code Author
 
-The underlying source code used to format and display this website is licensed under the MIT license. 
+The underlying source code used to format and display this website is licensed under the MIT license.
 
 * https://github.com/jgthms/marksheet
 

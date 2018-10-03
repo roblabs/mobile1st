@@ -6,7 +6,7 @@ attribution: ePi Rational, Inc.
 markdown: kramdown
 kramdown:
   input: GFM
-# exclude: ['images/original']
+exclude: ['images/original']
 permalink: :title.html
 
 # also used for `og:` properites
