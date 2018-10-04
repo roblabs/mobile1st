@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experience"
-subtitle: "go well prepared"
+subtitle: "Distribute Great Spatial Information"
 section: mobile
 ---
 
@@ -11,7 +11,7 @@ If the application is backcountry hiking or search and rescue, then the customer
 * Use your GPS to see your location on the trail.
 * With beautiful shaded relief.
 * Topographic map with 40 feet contour intervals.
-* When you have service, get local weather from [Weather.gov](http://weather.gov).
+* When you have service, get local weather from [Weather.gov](http://forecast.weather.gov/MapClick.php?lat=33.&lon=-117.1).
 
 
 [https://itunes.apple.com/us/developer/epi-rational-inc./id416401310](https://itunes.apple.com/us/developer/epi-rational-inc./id416401310)
