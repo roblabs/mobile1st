@@ -35,20 +35,20 @@ route: chapter
 <script>
 document.onkeydown = function(e) {
     switch (e.keyCode) {
-        case 37:
+        case 37:  // left arrow
             console.log('left');
             location.href = "{{ page.previous.url | remove_first:'/' }}";
             break;
-        case 38:
-            console.log('up');
+        case 80:  // 'p'
+            console.log('up');  // 'p'
             $('#open').click()
             break;
-        case 39:
+        case 39: // right arrow
             console.log('right');
             location.href = "{{ page.next.url | remove_first:'/'}}";
             break;
-        case 40:
-            console.log('down');
+        case 76:  // 'l'
+            console.log('down');  // '/'
             $('#close').click()
             break;
     }
