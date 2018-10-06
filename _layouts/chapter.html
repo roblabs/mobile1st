@@ -31,3 +31,26 @@ route: chapter
     </div>
   </div>
 </main>
+
+<script>
+document.onkeydown = function(e) {
+    switch (e.keyCode) {
+        case 37:
+            console.log('left');
+            location.href = "{{ page.previous.url | remove_first:'/' }}";
+            break;
+        case 38:
+            console.log('up');
+            $('#open').click()
+            break;
+        case 39:
+            console.log('right');
+            location.href = "{{ page.next.url | remove_first:'/'}}";
+            break;
+        case 40:
+            console.log('down');
+            $('#close').click()
+            break;
+    }
+};
+</script>
