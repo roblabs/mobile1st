@@ -1,6 +1,9 @@
 # mobile1st
 https://mobile1st.roblabs.com
 
+### Presented at 2018 State of the Map, Detroit, MI — Oct 5-7, 2018
+
+* https://2018.stateofthemap.us/program/chohan.html
 
 ### Presented at FOSS4G North America, St Louis, MO — May 14-16, 2018
 

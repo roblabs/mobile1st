@@ -5,6 +5,17 @@ subtitle: "<i>Maps Tell a Story</i>.  But Don't forget the navigation."
 section: mobile
 ---
 
+#### Paper Map
+![](images/usgs-map.png)
+
+---
+
+#### Offline Map for Mobile
+
+![](images/mt-whitney-demo.png)
+
+---
+
 What Go Well Prepared means
 
 * *Plan ahead and prepare* — Leave No Trace Principle Number One

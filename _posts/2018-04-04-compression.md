@@ -5,14 +5,13 @@ subtitle: "Compression and Data Reduction Techniques"
 section: pipeline
 ---
 
-### Not all Web Browsers support WebP
+#### Not all Web Browsers support WebP
 
-But since we are Mobile First, this is a don’t care
-
-We built the WebP reader into our Mobile SDK for iOS  
-
-See our code and how to include a WebP reader for mobile
-[https://github.com/roblabs/mapbox-gl-native](https://github.com/roblabs/mapbox-gl-native)
+* But since we are Mobile First, this is a *don’t care*
+* We built the WebP reader into our Mobile SDK for iOS  
+* See our code and how to include a WebP reader for mobile.
+* WebP compression changes for the Mapbox iOS SDK for rendering raster & vector map data — [https://github.com/roblabs/mapbox-gl-native](https://github.com/roblabs/mapbox-gl-native)
+* (*Future Research*) Since iOS 11, Apple has support for HEIF & HEVC, [https://support.apple.com/en-us/HT207022](https://support.apple.com/en-us/HT207022)
 
 
 
@@ -20,10 +19,9 @@ See our code and how to include a WebP reader for mobile
 
 ---
 
-### iPhone App Size Study
+#### iPhone App Size Study
 
-Data sampled May 2018
-
+*Data sampled May 2018*
 
 iPhone App | App Size with<br>**WebP Rasters** (MB) |   | App Size with<br>PNG Rasters (MB)
 ------ | :------: | :------: | :------:
@@ -43,5 +41,5 @@ Starbucks | 116.3 | |
 United Airlines | 133.5 | |
 **Offline San Bernardino National Forest** | **139.7** | **Native Offline** | <span style="color:red">*233.3*</span>
 Bank of America | 149.3 | |
-<span style="color:red">*Apple’s LTE cut off*</span> | | | <span style="color:red">*150*</span>
-Facebook (Wi-Fi only) | 305.4 | |
+<span style="color:red">*Apple’s LTE cut off, Wi-Fi only after 150 MB*</span> |  <span style="color:red">---</span> |  <span style="color:red">---</span> |  <span style="color:red">---</span>
+Facebook  | <span style="color:red">305.4</span> | |

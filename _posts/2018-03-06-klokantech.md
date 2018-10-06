@@ -5,7 +5,7 @@ subtitle: "create and self-host maps for your websites and products"
 section: tools
 ---
 
-Klokantech — tools
+#### Klokantech — tools
 
 * Mobile SDK extension for MBTiles, [openmaptiles.com/mobile-app](https://openmaptiles.com/mobile-app/)
 
@@ -17,7 +17,7 @@ and raster tiles, [github.com/klokantech/tileserver-gl](https://github.com/kloka
   * Professional Services from Klokantech — [http://openMapTiles.com](http://openMapTiles.com)  
 * MapTiler — Soft proof tiles
 
-### MapTiler
+#### MapTiler
 
 Use MapTiler to visualize MBTiles.  Download for macOS, Windows, Linus or Docker, [maptiler.com](https://www.maptiler.com/download/)
 
