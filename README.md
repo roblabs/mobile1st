@@ -3,7 +3,8 @@ https://mobile1st.roblabs.com
 
 ### Presented at 2018 State of the Map, Detroit, MI — Oct 5-7, 2018
 
-* https://2018.stateofthemap.us/program/chohan.html
+* Marksheet — https://2018.stateofthemap.us/program/chohan.html
+* YouTube — https://www.youtube.com/watch?v=A9Oc7n0dlx8&index=31&list=PLqjPa29lMiE08hjyWGcyNoCva4Str7XLk&t=0s
 
 ### Presented at FOSS4G North America, St Louis, MO — May 14-16, 2018
 
@@ -11,8 +12,7 @@ https://mobile1st.roblabs.com
 
 ### Talk for the National Trails System GIS Network
 
-*  Tuesday, January 16th, 2018 (12 pm PST / 1 pm MT / 3 pm ET)
-
+* Tuesday, January 16th, 2018 (12 pm PST / 1 pm MT / 3 pm ET)
 * For more information, please see the [National Trails System GIS Network](http://pnts.org/new/national-trails-system-gis-network/)
 
 
