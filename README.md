@@ -2,8 +2,8 @@
 https://mobile1st.roblabs.com
 
 ### Presented at 2018 State of the Map, Detroit, MI — Oct 5-7, 2018
-
-* Marksheet — https://2018.stateofthemap.us/program/chohan.html
+* Abstract — https://2018.stateofthemap.us/program/chohan.html
+* Marksheet — https://mobile1st.roblabs.com
 * YouTube — https://www.youtube.com/watch?v=A9Oc7n0dlx8&index=31&list=PLqjPa29lMiE08hjyWGcyNoCva4Str7XLk&t=0s
 
 ### Presented at FOSS4G North America, St Louis, MO — May 14-16, 2018
