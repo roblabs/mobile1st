@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experience"
-subtitle: "Distribute Great Spatial Information"
+subtitle: "<i>Distribute</i> Great Spatial Information"
 section: mobile
 ---
 

@@ -2,24 +2,25 @@ name: Mobile1st Maps
 title: Mobile1st Maps
 description: Offline Maps for Mobile — Making Maps That Are Mobile First
 homepage: https://mobile1st.roblabs.com
+destination: ./_site
 attribution: ePi Rational, Inc.
 markdown: kramdown
 kramdown:
   input: GFM
-exclude: ['images/original']
+exclude: ['images/original', jekyll-docker, go.sh]
 permalink: :title.html
 
 # also used for `og:` properites
 twitter:
   card: summary_large_image
-  creator: robchohan
+  creator: RobChohan
   image: https://roblabs.com/favicon.ico
   width: 640
   height: 480
-  site: robchohan
+  site: RobChohan
   title: Twitter Title
-github: roblabs
-observablehq: roblabs
+github: RobLabs
+observablehq: RobLabs
 toc:
   sections: 9
   chapters: 9

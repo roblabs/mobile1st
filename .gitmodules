@@ -1,0 +1,3 @@
+[submodule "jekyll-docker"]
+	path = jekyll-docker
+	url = https://github.com/envygeeks/jekyll-docker

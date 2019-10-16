@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wilderness.net"
-subtitle: "Wilderness is<br>the land that was.<br>Wilderness is<br>the land that is."
+subtitle: "Wilderness is<br>the land that <i>was</i>.<br>Wilderness is<br>the land that <i>is</i>."
 section: data
 ---
 
