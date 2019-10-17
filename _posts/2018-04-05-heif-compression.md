@@ -8,7 +8,7 @@ section: pipeline
 ### Product Research & Development
 
 * Use HEIF raster images for Apple Books
-  * See the [Apple Books Live Demo](/applebooks-demo)
+  * See the [Apple Books Demo](/applebooks-demo)
 * Use HEIF raster images for `xyz` tile servers
 
 #### iOS Support HEIF
